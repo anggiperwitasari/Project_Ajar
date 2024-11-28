@@ -1,0 +1,2 @@
+g++ main.cpp math_tools.cpp -o program
+./program
