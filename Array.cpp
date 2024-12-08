@@ -20,5 +20,23 @@ int main() {
         cout << "Elemen ke-" << i + 1 << ": " << arr[i] << endl;
     }
 
+    /* 	Pada dasarnya array multidimensi ini seperti Matriks
+		Misalnya, array 2D dapat dianggap sebagai matriks dengan baris dan kolom, 
+		di mana setiap elemen dapat diakses menggunakan dua indeks: 
+		satu untuk baris dan satu untuk kolom.
+	*/
+	
+	//	Array 2D
+	int array2D[2][2] = {
+		{1, 2},
+		{3, 4}
+	};
+	
+	cout << "array 2D :" << endl;
+	cout << array2D[0][0] << " " << array2D[0][1] << endl;
+	cout << array2D[1][0] << " " << array2D[1][1] << endl;
+	
+	cout << endl;
+
     return 0;
 }
